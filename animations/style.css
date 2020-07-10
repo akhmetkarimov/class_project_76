@@ -1,0 +1,24 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    animation-name: changeBoxColor;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes changeBoxColor {
+    0% {
+        transform: rotate(-45deg);
+        /* transform: skew(-40deg); */
+        /* transform: translate(20%, 50%); */
+        /* transform: scale(-2) */
+    }
+    50% {
+        background-color: violet;
+    }
+    100% {
+        background-color: lime;
+    }
+}

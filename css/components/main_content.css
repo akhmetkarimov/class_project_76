@@ -1,12 +1,124 @@
-.main_welcome{
-	display: flex;
-	justify-content: space-between;
+/* Main Welcome block */
+
+.main_welcome {
+    display: flex;
+    justify-content: space-between;
 }
 
-.welcome_img{
-	width: 30%;
+.welcome_img {
+    width: 30%;
 }
 
-.welcome_text{
-	width: 50%;
+.welcome_text {
+    width: 50%;
+}
+
+.welcome_text h3 {
+    color: #00a9da;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
+.welcome_text h2 {
+    font-size: 3.5rem;
+    font-weight: 100;
+    margin: 10px 0 40px;
+}
+
+.welcome_text p {
+    font-weight: 100;
+    margin-bottom: 40px;
+    line-height: 1.4;
+}
+
+.welcome_text button {
+    cursor: pointer;
+    width: 160px;
+    height: 50px;
+    background-color: #2ab5f6;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.welcome_text button:hover {
+    background-color: #00283d;
+}
+
+
+/* Main why block */
+
+.main_why {
+    background-color: #EBF4F7;
+}
+
+.why_item {
+    width: 22%;
+    text-align: center;
+}
+
+.why_item h4 {
+    margin: 20px 0 10px;
+    font-weight: bold;
+}
+
+.why_item p {
+    font-weight: 100;
+}
+
+
+/* Consult main block */
+
+.consult_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.consult_text {
+    color: #fff;
+}
+
+.consult_text h3 {
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.text_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.consult_text .hr {
+    width: 40%;
+    height: 2px;
+    margin: 0;
+}
+
+.consult_text p {
+    font-weight: 100;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+.consult_inner button {
+    cursor: pointer;
+    width: 160px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1.3rem;
+    letter-spacing: 1.3px;
+    font-weight: 100;
+    transition: .5s;
+}
+
+.consult_inner button:hover {
+    background-color: #fff;
+    color: #00a9da;
 }
