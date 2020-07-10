@@ -1,0 +1,12 @@
+.main_welcome{
+	display: flex;
+	justify-content: space-between;
+}
+
+.welcome_img{
+	width: 30%;
+}
+
+.welcome_text{
+	width: 50%;
+}
